@@ -1,0 +1,7 @@
+[34683] : Begin
+pid is [34684]
+[34683] : parent is working
+[34683] : End
+pid is [0]
+[34684] : child is working
+[34684] : End

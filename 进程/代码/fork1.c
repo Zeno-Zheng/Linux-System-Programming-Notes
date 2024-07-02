@@ -7,6 +7,8 @@
 int main()
 {
     printf("[%d] : Begin\n", getpid());
+    fflush(NULL);     /**fork进程之前，一定要清空缓存区中的缓存，否则缓存也会有两份 */
+
     pid_t pid = fork();
 
     printf("pid is [%d]\n", pid);
